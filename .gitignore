@@ -1,0 +1,41 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore build output directories
+/bin/
+/build/
+/dist/
+
+# Ignore system and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore credentials and sensitive information
+secrets.txt
+config.ini
+
+# Ignore package manager directories
+/node_modules/
+/vendor/
+
+# Ignore specific file types
+*.bak
+*.swp
+*.tmp
+
+# Ignore operating system files
+Thumbs.db
+
+# Ignore specific project files
+/server/db/*
+/server/logs.txt
+/client/logs.txt
+/client/cotacao.txt
